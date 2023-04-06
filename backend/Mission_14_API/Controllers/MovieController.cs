@@ -12,6 +12,7 @@ namespace Mission_14_API.Controllers
         public MovieController(MovieDbContext temp)
         {
             context = temp;
+            
         }
         public IEnumerable<MovieCollection> Get()
         {
